@@ -6,18 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IF-edge">
     <meta name="viewport" content="width=device-width, initial-scal=1">
 
-    <title>Quick Start</title>
+    <title> HTML Crash Course</title>
+    <style type="text/css">
+    #main-header{
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+    #main-footer{
+        text-align: center;
+        font-size: 18px;
+    }
+    </style>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolorem.</p>
-   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ea!</h1>
-   <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, magnam?</h2>
-   <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsum!</h3>
+   <header id="main-header">
+       <h1>My Website</h1>
+   </header>
+   <section>
+       <article class="post">
+           <h3>Blog Post One</h3>
+           <small> Posted by Brad on July 17</small>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quae saepe. Assumenda alias corporis consequatur, quae tenetur voluptate ratione. Modi eveniet nihil blanditiis dolore consequuntur?</p>
+           <a href="post.html">read more</a>
+       </article>
+       <article class="post">
+        <h3>Blog Post One</h3>
+        <small> Posted by Brad on July 17</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quae saepe. Assumenda alias corporis consequatur, quae tenetur voluptate ratione. Modi eveniet nihil blanditiis dolore consequuntur?</p>
+        <a href="post.html">read more</a>
+    </article>
+    <article class="post">
+        <h3>Blog Post One</h3>
+        <small> Posted by Brad on July 17</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quae saepe. Assumenda alias corporis consequatur, quae tenetur voluptate ratione. Modi eveniet nihil blanditiis dolore consequuntur?</p>
+        <a href="post.html">read more</a>
+    </article>
+   </section>
+   <aside>
+       <h3>Categories</h3>
+        <nav>
+            <ul>
+                <li>list item 1</li>
+                <li>list item 1</li>
+                <li>list item 1</li>
+            </ul>
+        </nav>
+   </aside>
+   <footer id="main-footer">
+       <p>Copyright &copy; 2021 my first practice website</p>
+   </footer>
 
     <script src="Js/jquery-3.3.1.min.js"></script>
     <script src="Js/all.min.js"></script>
